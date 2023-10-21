@@ -2,8 +2,8 @@ steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Run Prisma 
-        id: prisma-cloud
+      - name: Run Prsima
+        id: Prsima
         uses: bridgecrewio/checkov-action@master 
         env:
           PRISMA_API_URL: https://api.ind.prismacloud.io
