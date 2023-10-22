@@ -1,0 +1,2 @@
+              - name: Prisma Cloud Scan
+                uses: PaloAltoNetworks/prisma-cloud-scan@v1.5
